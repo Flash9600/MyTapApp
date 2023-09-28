@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyTapApp</string>
+    <string name="roll">Roll!</string>
 </resources>
