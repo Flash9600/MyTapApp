@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/plain_text_input"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:hint="Write your coast of Service"
+        android:id="@+id/coast_of_service"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:autofillHints="Write your coast of Service"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="How was the service???"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/plain_text_input"></TextView>
+        app:layout_constraintTop_toBottomOf="@id/coast_of_service"></TextView>
 
     <RadioGroup
         android:id="@+id/tip_options"
@@ -75,7 +75,7 @@
         android:id="@+id/tip_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tip Amount"
+        tools:text = "Tip Amount: 10$"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculate_button" />
 

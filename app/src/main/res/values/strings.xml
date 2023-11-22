@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">MyTapApp</string>
-    <string name="roll">Roll!</string>
+    <string name="tip_amount">Tip amount: %s</string>
 </resources>
